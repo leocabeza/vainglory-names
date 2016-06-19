@@ -1,0 +1,1 @@
+# vainglory hero names
