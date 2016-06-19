@@ -1,0 +1,26 @@
+{
+  "name": "vainglory-hero-names",
+  "version": "1.0.0",
+  "description": "Get random vainglory hero name",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocabeza/vainglory-names.git"
+  },
+  "keywords": [
+    "random",
+    "vainglory"
+  ],
+  "author": "Leonardo Cabeza <info@leonardocabeza.com> (https://github.com/leocabeza)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leocabeza/vainglory-names/issues"
+  },
+  "homepage": "https://github.com/leocabeza/vainglory-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
