@@ -1,14 +1,16 @@
 {
   "name": "vainglory-hero-names",
-  "version": "1.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "Get random vainglory hero name",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leocabeza/vainglory-names.git"
+    "url": "https://github.com/leocabeza/vainglory-names.git"
   },
   "keywords": [
     "random",
@@ -22,5 +24,15 @@
   "homepage": "https://github.com/leocabeza/vainglory-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "commitizen": "2.8.2",
+    "cz-conventional-changelog": "1.1.6",
+    "mocha": "2.5.3",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
