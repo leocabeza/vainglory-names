@@ -22,4 +22,12 @@ describe('random', function() {
     var randomItem = vainglory.random();
     expect(vainglory.all).to.include(randomItem);
   });
+
+  it('should return an array of random items if passed a number', function() {
+    var randomItems = vainglory.random(3);
+    expect(randomItems).to.have.length(3);
+    randomItems.forEach(function(item) {
+      expect(vainglory.all).to.include(item);
+    });
+  });
 });
