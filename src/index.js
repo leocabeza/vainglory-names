@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array');
-var vainGloryHeroNames = require('./names.json');
+import uniqueRandomArray from 'unique-random-array'
+import vainGloryHeroNames from './names.json'
+
 var getRandomItem = uniqueRandomArray(vainGloryHeroNames); 
 
 module.exports = {
