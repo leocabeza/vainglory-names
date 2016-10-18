@@ -24,4 +24,8 @@ var allNames = names.all;
 var randomName = names.random();
 var threeRandomNames = names.random(3);
 ```
+## To use it in a web browser
+
+`https://npmcdn.com/vainglory-hero-names@latest/dist/index.umd.js`
+
 
